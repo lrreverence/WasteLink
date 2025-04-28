@@ -4,23 +4,23 @@ import { MapPin } from "lucide-react";
 const SuccessStories = () => {
   const stories = [
     {
-      name: "Maria Santos",
-      location: "Batangas",
-      image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&q=80",
+      name: "Mario Santos",
+      location: "Cebu",
+      image: "/man1.png",
       quote: "Starting my BSF farm has not only helped manage waste from our local market but has become a profitable venture providing feed for my chickens.",
       results: "Processing 50kg of food waste weekly"
     },
     {
       name: "Juan Reyes",
-      location: "Cavite",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&q=80",
+      location: "Bohol",
+      image: "/man2.png",
       quote: "Our community BSF project has created jobs for five people and significantly reduced our village's organic waste problems.",
       results: "Reducing landfill waste by 60%"
     },
     {
       name: "Elena Cruz",
-      location: "Laguna",
-      image: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?auto=format&fit=crop&q=80",
+      location: "Cebu Province",
+      image: "/man3.png",
       quote: "The fertilizer byproduct from our BSF operation has improved our vegetable farm's yield while cutting our feed costs for fish farming.",
       results: "Saving ₱3,000 monthly on feed costs"
     }

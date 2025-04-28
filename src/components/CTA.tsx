@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -19,7 +18,7 @@ const CTA = () => {
               Get Started Guide
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white hover:bg-earth-700">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-earth-100">
               Contact Us
             </Button>
           </div>

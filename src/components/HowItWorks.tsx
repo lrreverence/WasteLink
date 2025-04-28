@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 
 const HowItWorks = () => {
@@ -51,8 +50,7 @@ const HowItWorks = () => {
         <div className="max-w-5xl mx-auto">
           <div className="relative">
             {/* Process steps */}
-            <div className="hidden md:block h-0.5 bg-earth-200 absolute top-16 left-0 right-0 z-0"></div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {steps.slice(0, 3).map((step) => (
                 <div key={step.id} className="relative z-10">
                   <div className="bg-white mx-auto w-12 h-12 rounded-full flex items-center justify-center border-2 border-earth-500 mb-4">
@@ -64,10 +62,6 @@ const HowItWorks = () => {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="hidden md:flex justify-center my-6">
-              <ArrowRight className="h-8 w-8 text-earth-400 rotate-90 md:rotate-0" />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

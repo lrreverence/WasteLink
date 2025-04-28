@@ -1,4 +1,3 @@
-
 import { ArrowRight, Leaf } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -36,7 +35,7 @@ const Hero = () => {
             <div className="relative">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-earth-100 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&q=80" 
+                  src="/bsf.jpg" 
                   alt="Food waste being processed into valuable resources" 
                   className="h-full w-full object-cover" 
                 />

@@ -67,7 +67,7 @@ const Benefits = () => {
             <div className="w-full md:w-1/2">
               <div className="aspect-video w-full rounded-lg overflow-hidden bg-earth-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?auto=format&fit=crop&q=80" 
+                  src="/bsfarm.jpg"
                   alt="Sustainable farming in the Philippines" 
                   className="w-full h-full object-cover" 
                 />
