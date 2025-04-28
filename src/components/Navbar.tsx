@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
@@ -11,7 +10,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center space-x-2">
-            <span className="text-earth-600 text-xl font-bold">Ulikba Farm</span>
+            <span className="text-earth-600 text-xl font-bold">WasteLink</span>
             <span className="hidden sm:inline-block bg-earth-500 text-white px-2 py-0.5 rounded-md text-xs">PH</span>
           </a>
         </div>

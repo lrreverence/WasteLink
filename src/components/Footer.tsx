@@ -1,4 +1,3 @@
-
 import { ArrowRight, Facebook, Globe, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-earth-100">Ulikba Farm PH</h3>
+            <h3 className="text-xl font-bold mb-4 text-earth-100">WasteLink</h3>
             <p className="text-soil-300 mb-4">
               Promoting sustainable Black Soldier Fly farming across the Philippines to reduce food waste and create value from organic materials.
             </p>
@@ -86,7 +85,7 @@ const Footer = () => {
         <div className="border-t border-soil-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-soil-400 text-sm">
-              © {new Date().getFullYear()} Ulikba Farm PH. All rights reserved.
+              © {new Date().getFullYear()} WasteLink. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-soil-400 hover:text-earth-300 text-sm transition-colors">Privacy Policy</a>
